@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex-container {
+    background-color: yellow;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-between;
+}
+.flex-item {
+    height: 200px;
+    flex-grow: 1;
+    background-color: blue;
+    flex: 1 1 320px;
+}

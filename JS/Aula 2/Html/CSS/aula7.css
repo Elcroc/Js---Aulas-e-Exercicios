@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.pai{
+    height: 100vw;
+    background-color: antiquewhite;
+    overflow: hidden;
+}
+p {
+    font-size: 1.6rem;
+}
+.collor-one{
+    background-color: aqua;
+}
+.collor-two{
+    background-color: blue;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" method="get" target="_blank" >
+        <p>Formulario</p>
+        <p>
+            <label for="nome">Nome :</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu Nome" required>
+        </p>
+        <p>
+            <label for="dev">Sou Um Deve ?</label>
+            <input type="checkbox" id="dev" name="dev"  value="sim">
+        </p>
+        <p>
+            Qual o mais importante para você ?<br>            
+            <input type="radio" id="html" name="import" value="html" >
+            <label for="html">HTML?</label><br>
+            <input type="radio" id="css" name="import"  value="css">
+            <label for="css">CSS?</label><br>              
+            <input type="radio" id="js" name="import"  value="js">
+            <label for="js">Java Script?</label><br>            
+            <input type="radio" id="nd" name="import"  value="nd">
+            <label for="nd">Node?</label><br>    
+        </p>
+        <p>
+            <label for="date">Data de envio :</label>
+            <input type="date" id="date" name="date"  >
+        </p>
+        <p>
+            <label for="color">Cor preferida ?</label>
+            <input type="color" id="color" name="color"  >
+        </p>
+        <p>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required  >
+        </p>
+        <p>
+            <label for="foto">Foto :</label>
+            <input type="file" id="foto" name="foto"  accept="png, .svg , image/*" multiple >
+        </p>
+        <p>
+            <label for="range">Oquanto sabe programar :</label>
+            <input type="range" id="range" name="range"  list="values" >
+            <datalist id="values">
+                <option value="0" label="0"></option>
+                <option value="25" label="25"></option>
+                <option value="50" label="50"></option>
+                <option value="75" label="75"></option>
+                <option value="100" label="100"></option>
+              </datalist>  
+        </p>
+        <p>
+             <label for="learn">O Quanto você aprendeu hoje ?</label>
+            <select name="learn" id="learn">
+                <option value="0" label="0 %"></option>
+                <option value="25" label="25 %"></option>
+                <option value="50" label="50 %"></option>
+                <option value="75" label="75 %"></option>
+                <option value="100" label="100 %"></option>
+            </select>
+        </p>
+        <p>
+            <label for="textarea">textarea</label>
+            <textarea name="textarea" id="textarea" cols="5" rows="5"></textarea>
+        </p>
+        <p>
+            <label for="senha">Senha :</label>
+            <input type="password" id="senha" name="senha"  >
+        </p>
+        <p>
+            <button type="submit">Enviar</button>
+            <button type="reset">Resetar</button>
+        </p>
+        
+    </form>
+</body>
+</html>

@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+.pai{}
+.filha1 , .filha2 , .filha3 {
+    width: 300px;
+    height: 300px;
+    background-color: bisque;
+    margin: 10px;
+}
+.filha1{
+    background-color: greenyellow;
+}
+.filha2{ 
+  position: absolute;
+ top: 50px;
+ left: 50px;
+  background-color:rgba(44, 27, 6, 0.3)
+}
+.filha3{
+    background-color: blue;
+    position:  relative;
+    top: 100px;
+}
+ul{
+    position: relative;
+    top: 150px;
+    height: 150px;
+    width: 50px;
+    overflow-y: auto;    
+}
+ul li.stick{
+    position: sticky;  
+    background-color: rgb(56, 35, 9);
+    top: 0;  
+}

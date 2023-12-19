@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 100%;
+        }
+        table td , table th{
+            border: 1px solid #ccc;
+            text-align: left;
+        }
+        table caption{
+            font-size: 14px;
+            caption-side: bottom;
+            font-style: italic;
+            text-align: end ;
+            margin-top: 6px;
+        }
+        thead tr{
+            background-color: #ddd;
+        }
+        tfoot tr {
+            font-style:italic;
+            background-color: #ddd;
+        }
+    </style>
+
+</head>
+
+<body>
+    <table>
+        <caption>Descrição da tabela </caption>
+        <thead>
+            <tr>
+                <th>
+                    Titulo 1                    
+                </th>
+                <th>
+                    Titulo 2
+                </th>
+                <Th>
+                    Titulo 3
+                </Th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th colspan="2">
+                    corpo1
+                </th>
+                
+                <th>
+                    corpo2
+                </th>
+            </tr>
+            <tr>
+                <th rowspan="2">
+                    corpo1
+                </th>
+                
+                <th>
+                    corpo3
+                </th>                
+                <th>
+                    corpo2
+                </th>
+            </tr>
+            <tr>
+                
+                <th>
+                    corpo3
+                </th>                
+                <th>
+                    corpo2
+                </th>
+            </tr>
+        
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th>
+                    corpo1
+                </th>
+                
+                <th>
+                    corpo3
+                </th>                
+                <th>
+                    corpo2
+                </th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

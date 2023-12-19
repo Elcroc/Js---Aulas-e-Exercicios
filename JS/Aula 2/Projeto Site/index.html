@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/variavel.css">
+    <link rel="stylesheet" href="assets/css/elements.css">
+    <link rel="stylesheet" href="assets/css/classes.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,300;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <input type="checkbox" id="close-menu" class="close-menu"  aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;"><a href="#home">LOGO</a></h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#intro">Intro</a></li>
+                    <li><a href="#top3">Top3</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#precos">Preços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+
+            </nav>
+        </div>
+    </aside>
+    <section id="home" class=" intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Fundamentos do texto em HTML / CSS</h2>
+                <p>Um dos principais objetivos do HTML é dar estrutura de texto e significado, também conhecido como
+                    semântica, para que um navegador possa exibi-lo corretamente. Este artigo explica a forma como HTML
+                    pode ser usado para estruturar uma página de texto, adicionar títulos e parágrafos, enfatizar
+                    palavras, criar listas e muito mais.</p>
+            </div>
+
+            <div class="intro-img">
+                <img src="assets/img/HtmlCss.svg"
+                    alt="Imagem de uma pagina com um HTML e um  CSS escrita nela e uma pessoa olhando de fora">
+            </div>
+        </div>
+    </section>
+    <section id="intro" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>
+                Top 3 Trabalhos Para HTML/CSS
+            </h2>
+            <p>
+                HTML para desenvolvedores - R$1.830
+                O salário médio nacional de Programador html é de R$1.830 em Brasil. Filtre por localização para ver os
+                salários de Programador html na sua região.
+            </p>
+            <p>
+                CSS para desenvolvedores - R$3.778
+                O salário médio nacional de Css é de R$7.778 em Brasil. Filtre por localização para ver os salários de
+                Css na sua região. As estimativas de salários têm como base os 18 salários enviados de forma sigilosa ao
+                Glassdoor por funcionários com o cargo de Css.
+
+            </p>
+            <p>
+                Front-EnD para desenvolvedores - R$7.778
+                O salário médio nacional de Css é de R$.778 em Brasil. Filtre por localização para ver os salários de
+                Front na sua região. As estimativas de salários têm como base os 18 salários enviados de forma sigilosa
+                ao Glassdoor por funcionários com o cargo de Front.
+            </p>
+        </div>
+    </section>
+    <section id="top3" class="grid-one main-bg section">
+        <div class=" main-content grid-one-contet">
+            <h2 class="grid-main-heading">Top 3 Trabalhos</h2>
+            <p class="grid-description">Nesse Site</p>
+            <div class="grid">
+                <article>
+                    <H3>Para 1</H3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti explicabo commodi fugit magni
+                        aliquam alias ab velit deserunt repudiandae quisquam non dolorem vero omnis voluptates, minus,
+                        itaque porro illo ex.</p>
+                </article>
+                <article>
+                    <h3>para 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur reprehenderit eius
+                        exercitationem
+                        necessitatibus nam ducimus facilis consequatur, consectetur doloremque, fugit laboriosam nisi
+                        vero
+                        sint cumque eos provident autem sunt soluta. </p>
+                </article>
+                <article>
+                    <h3>para 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur reprehenderit eius
+                        exercitationem
+                        necessitatibus nam ducimus facilis consequatur, consectetur doloremque, fugit laboriosam nisi
+                        vero
+                        sint cumque eos provident autem sunt soluta. </p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="galeria" class="grid-one white-bg section">
+        <div class=" main-content grid-one-contet">
+            <h2 class="grid-main-heading">Geleria</h2>
+            <p class="grid-description">fotos aleatoria da galeria</p>
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=1" alt="Imagem Aleatoria da unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=2" alt="Imagem Aleatoria da unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=3" alt="Imagem Aleatoria da unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=4" alt="Imagem Aleatoria da unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=5" alt="Imagem Aleatoria da unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=6" alt="Imagem Aleatoria da unsplash">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="precos" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>
+                preços
+            </h2>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, velit, cumque impedit a temporibus
+                debitis repellendus ea vitae illo exercitationem eos quibusdam veniam pariatur similique ipsum
+                consectetur fugit autem repudiandae.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quasi repudiandae odio placeat officiis
+                animi fugiat nisi numquam esse illo accusantium, cum aliquid vel itaque, tempore eum ipsum cumque
+                officia!
+            </p>
+            <div class="responsive-table">
+                <table>
+                    <caption>pricing table</caption>
+                    <thead>
+                        <tr>
+                            <th>Title 1</th>
+                            <th>Title 2</th>
+                            <th>Title 3</th>
+                        </tr>
+                    </thead>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>Text</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section id="contato" class=" intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Fundamentos do texto em HTML / CSS</h2>
+                <p>Um dos principais objetivos do HTML é dar estrutura de texto e significado, também conhecido como
+                    semântica, para que um navegador possa exibi-lo corretamente. Este artigo explica a forma como HTML
+                    pode ser usado para estruturar uma página de texto, adicionar títulos e parágrafos, enfatizar
+                    palavras, criar listas e muito mais.</p>
+            </div>
+
+            <div class="intro-img">
+                <img src="assets/img/HtmlCss.svg"
+                    alt="Imagem de uma pagina com um HTML e um  CSS escrita nela e uma pessoa olhando de fora">
+            </div>
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Contato</legend>
+                    <div class="form-group">
+                        <label for="first-name">Primeiro Nome</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Seu nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Ultimo Nome</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Seu Ultimo Nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="Seu E-mail">
+                    </div>
+                    <div class="form-group full-widht">
+                        <label for="message">Mensagem</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Sua Mensagem"></textarea>
+                    </div>
+                    <div class="form-group full-widht">
+                        <button type="submit">Enviar Mensagem</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+
+
+    <footer id="footer" class="footer white-bg">
+        <p>
+            <a rel="nofollow" target="_blank" href="https://github.com/Elcroc"></a>
+            Feito com <span class="heart">❤</span> por Jesiel Mamedes Silva Junior
+        </p>
+    </footer>
+    <a href="#" class="back-to-top">⮙</a>
+</body>
+
+</html>
